@@ -6,7 +6,8 @@ SlateInPost transcribes all your media files and compares them, giving you a rou
 It uses a Python package called [SpeechRecognition](https://pypi.org/project/SpeechRecognition/), which requires all media files to be in the .wav format. It is recommended that you convert your files to the supported format in advance, but SlateInPost does provide a conversion option that depends on the installation of [FFmpeg](https://ffmpeg.org/).
 
 ## Getting Started
-The app is functional but it is **not** ready for a release yet. It is written using PyQt5 so you can still build it yourself with say, [Pyinstaller](https://pypi.org/project/PyInstaller/).
+The app is functional but it is **not** ready for a release yet. It is written using PyQt5 so you can still build it yourself with [Pyinstaller](https://pypi.org/project/PyInstaller/).
+To build the app, you will need [pocketsphinx](https://pypi.org/project/pocketsphinx/) (which needs [swig](http://www.swig.org/)), [SpeechRecognition](https://pypi.org/project/SpeechRecognition/), [ffmpeg-python](https://pypi.org/project/ffmpeg-python/) and [PyQt5](https://pypi.org/project/PyQt5/).
 
 ## Usage
 1. To start, click on the **Import Media Files** button and select your files.
