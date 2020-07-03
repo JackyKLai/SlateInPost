@@ -20,4 +20,3 @@ def change_path(files, newPath):
         result.append(newPath + "/" + name + ".wav")
     return result
 
-

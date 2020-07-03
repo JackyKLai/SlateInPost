@@ -12,6 +12,6 @@ def process_list(dic, sim):
         for other in dic.keys():
             similarity = _similar(string, other)
             if other != string and similarity >= sim:
-                data.append("{} :{}% similar".format(dic[other], str(similarity)))
+                data.append("{}: {}% similar".format(dic[other], str(int(similarity))))
         result[dic[string]] = data
     return result
